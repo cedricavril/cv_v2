@@ -312,7 +312,6 @@ p, #trainingSection p{
 }
 
 .setBookmark:after, .callBookmark:after{
-  background-image: url('bookmark_white.svg');
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-table;
@@ -321,28 +320,12 @@ p, #trainingSection p{
   content: "";
 }
 
-.bookmarkLevel1:after{
-  background-image: url('bookmark_level1.svg');
-}
-
-.bookmarkLevel2:after{
-  background-image: url('bookmark_level2.svg');
-}
-
-.bookmarkLevel3:after{
-  background-image: url('bookmark_level3.svg');
-}
-
-.bookmarkLevel4:after{
-  background-image: url('bookmark_level4.svg');
-}
-
 .geekItem.logo{
   text-align: center;
 }
 
 @media print and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
   .left-column{
-    padding: 3px;
+    padding: 10px;
   }
 }

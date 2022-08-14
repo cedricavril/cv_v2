@@ -48,13 +48,13 @@ avec XHR quand c'est possible.</span> -->
   10
 </code></pre>
  <pre><code>
-      <span class="setBookmark bookmarkLevel3"></span>Récupération et personnalisation de <span class="vocabularyLevel2">scripts</span> tiers
+      <span class="setBookmark bookmarkLevel3"><?php include('bookmark_level3.svg') ?></span>Récupération et personnalisation de <span class="vocabularyLevel2">scripts</span> tiers
       et fournis avec le <span class="vocabularyLevel2">package</span> du thème;
-      <span class="setBookmark bookmarkLevel4"></span>Création et archivage de <span class="vocabularyLevel2">scripts</span> maison proposés
+      <span class="setBookmark bookmarkLevel4"><?php include('bookmark_level4.svg') ?></span>Création et archivage de <span class="vocabularyLevel2">scripts</span> maison proposés
       au client dans le respect des animations des 
       thèmes embarquées ou fournies par la <span class="vocabularyLevel2">charte</span>;
-      <span class="setBookmark bookmarkLevel1"></span>Utilisation d'<span class="vocabularyLevel2">objets</span> <span class="vocabularyLevel1">JSON</span>;
-      <span class="setBookmark bookmarkLevel2"></span><span class="vocabularyLevel1">Bootstrap</span> : choix d'une version de <span class="vocabularyLevel1">JQuery</span> récente
+      <span class="setBookmark bookmarkLevel1"><?php include('bookmark_level1.svg') ?></span>Utilisation d'<span class="vocabularyLevel2">objets</span> <span class="vocabularyLevel1">JSON</span>;
+      <span class="setBookmark bookmarkLevel2"><?php include('bookmark_level2.svg') ?></span><span class="vocabularyLevel1">Bootstrap</span> : choix d'une version de <span class="vocabularyLevel1">JQuery</span> récente
       compatible avec la version du <span class="vocabularyLevel2">package</span>;
 
 </code></pre>
@@ -72,7 +72,7 @@ avec XHR quand c'est possible.</span> -->
 <pre><code>
       Revue et amélioration des fichiers <span class="vocabularyLevel1">CSS</span> / <span class="vocabularyLevel1">HTML</span>;
       Amélioration de l'aspect visuel du site;
-      Idem l. 8 <span class="callBookmark bookmarkLevel3"></span>
+      Idem l. 8 <?php include('bookmark_level3.svg') ?>
     </code></pre>
 
     <blockquote class="geekItem blockquote">
@@ -87,10 +87,10 @@ avec XHR quand c'est possible.</span> -->
   31
 </code></pre>
   <pre><code>
-      Idem l. 6 <span class="callBookmark bookmarkLevel4"></span>
-      Idem l. 5 <span class="callBookmark bookmarkLevel3"></span>
-      Idem l. 9 <span class="callBookmark bookmarkLevel2"></span>
-      Idem l. 8 <span class="callBookmark bookmarkLevel1"></span>
+      Idem l. 6 <?php include('bookmark_level4.svg') ?>
+      Idem l. 5 <?php include('bookmark_level3.svg') ?>
+      Idem l. 9 <?php include('bookmark_level2.svg') ?>
+      Idem l. 8 <?php include('bookmark_level1.svg') ?>
   </code></pre>
 
 <blockquote class="geekItem blockquote">
@@ -107,8 +107,8 @@ avec XHR quand c'est possible.</span> -->
     <pre><code>
       <span class="vocabularyLevel1">JS Hack</span> pour ajustement graphique selon l'appareil
       et le navigateur utilisés;
-      Idem l. 5 <span class="callBookmark bookmarkLevel3"></span>
-      Idem l. 8 <span class="callBookmark bookmarkLevel1"></span>
+      Idem l. 5 <?php include('bookmark_level3.svg') ?>
+      Idem l. 8 <?php include('bookmark_level1.svg'); ?>
     </code></pre>
 
 

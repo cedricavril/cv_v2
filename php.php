@@ -71,7 +71,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 <pre><code>
       <span class="jobTitle">Back-end</span>:
          Revue et amélioration des <span class="vocabularyLevel1">scripts</span>;
-      <!-- bookmark si plusieurs faire couleurs différentes --><span class="setBookmark"></span>   Codage <span class="vocabularyLevel1">from scratch</span> des <span class="vocabularyLevel1">scripts serveur</span> 
+      <span class="setBookmark"><?php include('bookmark_white.svg') ?></span>   Codage <span class="vocabularyLevel1">from scratch</span> des <span class="vocabularyLevel1">scripts serveur</span> 
          associés;
     </code></pre>
 
@@ -91,7 +91,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
       <span class="jobTitle">Back-end</span>:
          <span class="vocabularyLevel1">Implémentation</span> d'<span class="vocabularyLevel3">interactivités</span> <span class="vocabularyLevel2">user</span> et <span class="vocabularyLevel2">admin</span> 
          ajoutées à <span class="vocabularyLevel1">bootstrap</span>;
-         Idem l.29 <div class="callBookmark"></div>
+         Idem l. 29 <?php include('bookmark_white.svg') ?>
          Scripts de <span class="vocabularyLevel1">parsage automatique</span> de <span class="vocabularyLevel2">Flux RSS</span>;
   </code></pre>
 
