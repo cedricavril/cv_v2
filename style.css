@@ -326,6 +326,7 @@ p, #trainingSection p{
 
 @media print and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
   .left-column{
-    padding: 10px;
+    padding: 40px;
+    padding-top: 0;
   }
 }
