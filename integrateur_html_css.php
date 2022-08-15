@@ -23,14 +23,14 @@
 <blockquote class="geekItem blockquote">
   Assur & mf
 </blockquote>
-<pre class="codeNumbers"><code>  4
-  5
-  6
+<pre class="codeNumbers"><code>   4
+   5
+   6
 
-  7
-  8
+   7
+   8
 
-  9
+   9
 </code></pre>
 <pre><code>
       Réintégration de <span class="vocabularyLevel3">textes statiques</span>;
