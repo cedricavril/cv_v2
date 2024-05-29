@@ -34,13 +34,3 @@ background-color: aliceblue;
 ul.infos li:last-child {
   padding-top: 32px;
 }
-
-
-.geekItem.blockquote {
-    padding: 0px;
-    line-height: normal;
-}
-
-.blockquote {
-  font-size: 0.9rem;
-}

@@ -1,0 +1,12 @@
+.geekItem.blockquote {
+    background-color: #F1FA8CC0;
+}
+
+.geekItem.logo {
+    position: absolute;
+    content: "";
+    margin-top: 110px;
+    width: 384px;
+    height: 130px;
+    text-align: center;
+}
