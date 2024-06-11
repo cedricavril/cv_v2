@@ -1,70 +1,23 @@
-.geekItem.body, .geekItem.body pre code {
+.geekItem.body, .geekItem.body pre code{
   color: white;
   background-color: #2E3238;
   font-size: 7px;
-/*  line-height: 14px;*/
   line-height: 16px;
   font-weight: normal;
 }
 
-.setBookmark {
-  left: 270px;
-  position: absolute;
-}
-
-.geekItem pre code.medley {
-  display: block;
+.geekItem pre code.medley{
   line-height: 18px;
 }
 
-.card-body.shadow-lg.rounded {
-  font-weight: bold;
-  border: cornflowerblue; 
-  padding: 10px;
-  color: white;
-}
-
-.volontariat, .card-body.shadow-lg.rounded.volontariat, .blockquote.volontariat {
-  background-color: rgb(71, 178, 157); 
-  font-weight: bold;
-}
-
-.missions, .card-body.shadow-lg.rounded.missions, .blockquote.missions {
-  background-color: blueviolet;
-  font-weight: bold;
-}
-
-.formations, .card-body.shadow-lg.rounded.formations, .blockquote.formations {
-  background-color: brown;
-  text-align: center;
-  font-weight: bold;
-}
-
-.geekItem.blockquote.formations {
-  text-align: left;
-}
-
-.autoentrepreneuriat, .card-body.shadow-lg.rounded.autoentrepreneuriat, .blockquote.autoentrepreneuriat {
-  background-color: green;
-  font-weight: bold;
-}
-
-.right-column .content .legende {
+.right-column .content .legende{
   background-color: #2E3238;
   border: cornflowerblue;
   padding: 40px;
   padding-bottom: 55px;
 }
 
-.right-column .content .section .card, .right-column .content .card {
-  position: absolute;
-}
-
-.all-colors-gradient {
-  background-image: linear-gradient(to left, green, blueviolet, brown, rgb(71, 178, 157));
-}
-
-.all-colors-gradient2 {
+.all-colors-gradient2{
   background-image: linear-gradient(to top, green, blueviolet, brown, rgb(71, 178, 157));
 }
 

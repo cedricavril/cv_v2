@@ -3,40 +3,40 @@
 }
 
 @media print{
-    .geekItem.blockquote {
+    .geekItem.blockquote{
 /*      padding: 19px;*/
   }
 }
 
-html {
+html{
     -webkit-print-color-adjust: exact;
     -webkit-filter: opacity(1);
 }
 
-html, body, .cv-container {
+html, body, .cv-container{
         height: 1122px;
 }
 
-* {
+*{
   box-sizing: border-box;
 }
 
-body * {
+body *{
   margin: 0;
 }
 
-body {
+body{
   font-family: Roboto;
   font-size: 12px;
   line-height: 20px;
   font-weight: 300;
 }
 
-.text-darkblue {
+.text-darkblue{
   color: #002060;
 }
 
-.header {
+.header{
   padding: 34px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -45,14 +45,14 @@ body {
   float: left;
 }
 
-.infos {
+.infos{
   columns: 2;
   list-style-type: none;
   padding: 0;
   margin-top: 10px;
 }
 
-.headerLogos {
+.headerLogos{
   position: absolute;
   image-rendering: smooth;
 
@@ -67,16 +67,16 @@ body {
   width: 90px;
 }
 
-ul.infos li:last-child {
+ul.infos li:last-child{
   padding-top: 32px;
   text-align: right;
 }
 
-.geekItem.blockquote {
+.geekItem.blockquote{
   background-color: #47B29D;
 }
 
-.blockquote {
+.blockquote{
   font-size: 8px;
   margin: 0;
 }
@@ -100,7 +100,7 @@ ul.infos li:last-child {
   margin-bottom: 23px;
 }
 
-.section .card {
+.section .card{
   margin: auto;
   width: fit-content;
   margin-top: 5px;
@@ -113,13 +113,13 @@ ul.infos li:last-child {
   text-transform: uppercase;
   line-height: 36px;}
 
-.skills, .skill, .subskill {
+.skills, .skill, .subskill{
   list-style-type: none;
   padding: 0;
   letter-spacing: 1px;
 }
 
-.subskill {
+.subskill{
   display: inline;
   position: absolute;
   left: 0;
@@ -141,19 +141,19 @@ ul.infos li:last-child {
   overflow: hidden;
 }
 
-.dots::after {
+.dots::after{
   content: "...........................................";
 }
 
-.moreDots::after {
+.moreDots::after{
   content: ".............................................";
 }
 
-.lessDots::after {
+.lessDots::after{
   content: "........................";
 }
 
-.langues {
+.langues{
   background-color: rgb(0,32,96);
 }
 
@@ -164,9 +164,12 @@ ul.infos li:last-child {
 .card-body.shadow-lg.rounded{
   background-color: rgb(0,32,96); 
   border: cornflowerblue;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
 }
 
-.geekItem.body, .geekItem.body pre code {
+.geekItem.body, .geekItem.body pre code{
   color: white;
   background-color: #2E3238;
   font-size: 7px;
@@ -174,30 +177,30 @@ ul.infos li:last-child {
   font-weight: normal;
 }
 
-.right-column-two .content .geekItem.body code pre  {
+.right-column-two .content .geekItem.body code pre{
   font-size: 7px;
   color: white;
 }
 
-.geekItem.body {
+.geekItem.body{
   font-size-adjust: .8;
 }
 
-pre {
+pre{
   font-weight: bold;
   font-size: .8em;
 }
 
-.codeNumbers {
+.codeNumbers{
   position: absolute;
   display: block;
 }
 
-.geekItem.body pre.codeNumbers code {
+.geekItem.body pre.codeNumbers code{
   color: grey;
 }
 
-.indent {
+.indent{
   font-weight: bold; 
   letter-spacing: 3px;
   margin-left: 8px;
@@ -230,20 +233,20 @@ pre {
 
 
 
-h1 {
+h1{
   margin-bottom: 8px;
   font-size: x-large;
 }
 
-.right-column {
+.right-column{
   width: 0;
 }
 
-.right-column-two {
+.right-column-two{
   width: 528px;
 }
 
-.setBookmark {
+.setBookmark{
   left: 270px;
   position: absolute;
 }
@@ -257,7 +260,7 @@ h1 {
   margin-bottom: 23px;
 }
 
-.section .card {
+.section .card{
   margin: auto;
   width: fit-content;
   margin-top: 5px;
@@ -270,13 +273,13 @@ h1 {
   text-transform: uppercase;
   line-height: 36px;}
 
-.skills, .skill, .subskill {
+.skills, .skill, .subskill{
   list-style-type: none;
   padding: 0;
   letter-spacing: 1px;
 }
 
-.subskill {
+.subskill{
   display: inline;
   position: absolute;
   left: 0;
@@ -298,19 +301,19 @@ h1 {
   overflow: hidden;
 }
 
-.dots::after {
+.dots::after{
   content: "...........................................";
 }
 
-.moreDots::after {
+.moreDots::after{
   content: ".............................................";
 }
 
-.lessDots::after {
+.lessDots::after{
   content: "........................";
 }
 
-.langues {
+.langues{
   background-color: rgb(0,32,96);
 }
 
@@ -323,30 +326,30 @@ h1 {
   border: cornflowerblue;
 }
 
-.right-column-two .content .geekItem.body code pre  {
+.right-column-two .content .geekItem.body code pre{
   font-size: 7px;
   color: white;
 }
 
-.geekItem.body {
+.geekItem.body{
   font-size-adjust: .8;
 }
 
-pre {
+pre{
   font-weight: bold;
   font-size: .8em;
 }
 
-.codeNumbers {
+.codeNumbers{
   position: absolute;
   display: block;
 }
 
-.geekItem.body pre.codeNumbers code {
+.geekItem.body pre.codeNumbers code{
   color: grey;
 }
 
-.indent {
+.indent{
   font-weight: bold; 
   letter-spacing: 3px;
   margin-left: 8px;
@@ -378,20 +381,53 @@ pre {
 
 
 
-h1 {
+h1{
   margin-bottom: 8px;
   font-size: x-large;
 }
 
-.right-column {
+.right-column{
   width: 0;
 }
 
-.right-column-two {
+.right-column-two{
   width: 528px;
 }
 
-.setBookmark {
+.setBookmark{
   left: 270px;
+  position: absolute;
+}
+
+.all-colors-gradient{
+  background-image: linear-gradient(to left, green, blueviolet, brown, rgb(71, 178, 157));
+}
+
+.volontariat, .card-body.shadow-lg.rounded.volontariat, .blockquote.volontariat{
+  background-color: rgb(71, 178, 157); 
+  font-weight: bold;
+}
+
+.missions, .card-body.shadow-lg.rounded.missions, .blockquote.missions{
+  background-color: blueviolet;
+  font-weight: bold;
+}
+
+.formations, .card-body.shadow-lg.rounded.formations, .blockquote.formations{
+  background-color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+
+.geekItem.blockquote.formations{
+  text-align: left;
+}
+
+.autoentrepreneuriat, .card-body.shadow-lg.rounded.autoentrepreneuriat, .blockquote.autoentrepreneuriat{
+  background-color: green;
+  font-weight: bold;
+}
+
+.right-column .content .section .card, .right-column .content .card{
   position: absolute;
 }
