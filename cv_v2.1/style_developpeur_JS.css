@@ -3,18 +3,13 @@
   background-color: #2E3238;
   font-size: 7px;
 /*  line-height: 14px;*/
-  line-height: 16px;
+  line-height: 18px;
   font-weight: normal;
-}
-
-.setBookmark {
-  left: 270px;
-  position: absolute;
 }
 
 .geekItem pre code.medley {
   display: block;
-  line-height: 18px;
+  line-height: 17px;
 }
 
 .card-body.shadow-lg.rounded {
@@ -50,9 +45,9 @@
 }
 
 .right-column .content .legende {
-  background-color: #2E3238;
+  background-color: whitesmoke;
   border: cornflowerblue;
-  padding: 40px;
+  padding: 60px;
   padding-bottom: 55px;
 }
 
@@ -62,10 +57,6 @@
 
 .all-colors-gradient {
   background-image: linear-gradient(to left, green, blueviolet, brown, rgb(71, 178, 157));
-}
-
-.all-colors-gradient2 {
-  background-image: linear-gradient(to top, green, blueviolet, brown, rgb(71, 178, 157));
 }
 
 .left-column-margin{
@@ -79,7 +70,7 @@
 
 .left-column{
   padding: 24px;
-  padding-bottom: 47px;
+  padding-bottom: 6px;
   background-color: #4472C4;
   color: white;
 }

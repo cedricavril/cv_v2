@@ -103,12 +103,27 @@
 </div>
 
 <div class="header">
-  <img class="headerLogos" src="logo_jquery.svg"  style="left: 685px;" />
+
+<!--   <img class="headerLogos" src="logo_jquery.svg"  style="left: 685px;" />
   <img class="headerLogos" src="logo_bs.svg"  style="left: 604px;" />
   <img class="headerLogos" src="logo_mysql.svg"  style="left: 534px; top: 45px;" />
   <img class="headerLogos" src="logo_php.svg" style="left: 490px;" />
   <h1>Cédric <span class="text-blue text-uppercase">Avril</span></h1>
-  <p class="text-uppercase">DÉVELOPPEUR WEB</p>
+  <p>DÉVELOPPEUR WEB</p>
+  <ul class="infos">
+    <li><i class="icon fas fa-at text-blue"></i> <a href="mailto:contact@naytheet.fr">contact@naytheet.fr</a></li>
+    <li><i class="icon fas fa-phone text-blue"></i> <a href="tel:0660999649"> 06 60 99 96 49</a></li>
+  </ul>
+ -->
+
+
+  <img class="headerLogos" src="logo_js.svg"  style="left: 550px; top: 45px; z-index: 1;" />
+  <img class="headerLogos" src="logo_css3.svg"  style="left: 605px; top: 20px;" />
+  <img class="headerLogos" src="logo_html5.svg"  style="left: 516px;" />
+  <img class="headerLogos" src="logo_jquery.svg"  style="left: 440px; top: 50px;" />
+  <img class="headerLogos" src="logo_bs.svg"  style="left: 680px;" />
+  <h1>Cédric <span class="text-blue text-uppercase">Avril</span></h1>
+  <p class="text-uppercase">DÉVELOPPEUR JAVASCRIPT</p>
   <ul class="infos">
     <li><i class="icon fas fa-at text-blue"></i> <a href="mailto:contact@naytheet.fr">contact@naytheet.fr</a></li>
     <li><i class="icon fas fa-phone text-blue"></i> <a href="tel:0660999649"> 06 60 99 96 49</a></li>
@@ -117,35 +132,35 @@
 
 <div class="right-column">
   <div class="content">
-    <div class="card" style="top : 312px; left: 550px;">
+    <div class="card" style="top : 683px; left: 550px;">
       <div class="card-body shadow-lg rounded legende">
         <div style="width: 117px;"></div>
       </div>
     </div>
 
     <div class="section">
-      <div class="card" style="top : 318px; left: 558px;">
+      <div class="card" style="top : 689px; left: 558px;">
         <div class="card-body shadow-lg rounded autoentrepreneuriat">
           <pre>Autoentrepreneuriat</pre>
         </div>
       </div>
     </div>
     <div class="section">
-      <div class="card" style="top : 370px; left: 660px; width: 120px;">
+      <div class="card" style="top : 741px; left: 660px; width: 120px;">
         <div class="card-body shadow-lg rounded formations">
           <pre>Formations</pre>
         </div>
       </div>
     </div>
     <div class="section">
-      <div class="card" style="top : 318px; left: 709px;">
+      <div class="card" style="top : 689px; left: 709px;">
         <div class="card-body shadow-lg rounded missions">
           <pre>Missions</pre>
         </div>
       </div>
     </div>
     <div class="section">
-      <div class="card" style="top : 370px; left: 558px;">
+      <div class="card" style="top : 741px; left: 558px;">
         <div class="card-body shadow-lg rounded volontariat">
           <pre>Volontariat</pre>
         </div>

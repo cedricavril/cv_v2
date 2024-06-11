@@ -12,12 +12,12 @@
     <div class="right-column-two">
         <div class="content">
         <div class="geekItem body">
-<code><pre>&#60;!-- <span class="jobTitle">
+<code><pre>&#60;!-- <span class="jobTitle "> PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> PROG PEOPLE (Azote) </span> ET NAYTHEET.FR (FSH)</span>
 Vous pouvez consulter mon tutoriel chez developpez.com
 en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>. 
---></code></pre>
+--></pre></code>
 <!------------------------------------ ASSUR&MF ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: blueviolet;">
+<blockquote class="geekItem blockquote missions" >
 <pre>   1 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2019</pre>
 </blockquote>
 <pre class="codeNumbers"><code>   2
@@ -35,7 +35,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 
 </code></pre>
 <!------------------------------------ Jardin et écotourisme ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: green;">
+<blockquote class="geekItem blockquote autoentrepreneuriat">
 <pre>   8 # **Jardin et écotourisme** *<span style="font-style: italic;">Maintenance</span>* : 2018</pre>
 </blockquote>
 <pre class="codeNumbers"><code>   9
@@ -54,7 +54,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 
 </code></pre>
 <!------------------------------------ William Theviot ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: green;">
+<blockquote class="geekItem blockquote autoentrepreneuriat">
 <pre>  15 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : 2018</pre>
 </blockquote>
 <pre class="codeNumbers"><code>  16
@@ -69,7 +69,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
          <span class="setBookmark"><?php include('bookmark_white.svg') ?></span>Codage <span class="vocabularyLevel1">from scratch</span> des <span class="vocabularyLevel1">scripts serveur</span> associés;
     </code></pre>
 <!------------------------------------ Odilezen ------------------------------------>
-    <blockquote class="geekItem blockquote" style="background-color: green;">
+    <blockquote class="geekItem blockquote autoentrepreneuriat">
 <pre>  21 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2018</pre>
 </blockquote>
 <pre class="codeNumbers"><code>  22
@@ -87,7 +87,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
          Scripts de <span class="vocabularyLevel1">parsage automatique</span> de <span class="vocabularyLevel2">Flux RSS</span>;
   </code></pre>
 <!------------------------------------ Hôtel les pins ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: green;">
+<blockquote class="geekItem blockquote autoentrepreneuriat">
 <pre>  28 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2017</pre>
 </blockquote>
 <pre class="codeNumbers"><code>  29
@@ -101,7 +101,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 
 </code></pre>
 <!------------------------------------ Atelier Galerie 5F ------------------------------------>
-  <blockquote class="geekItem blockquote" style="background-color: brown;">
+  <blockquote class="geekItem blockquote formations">
 <pre>  33 # **Atelier Galerie 5F** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2017
 </pre></blockquote>
   <pre class="codeNumbers"><code>  34
@@ -117,7 +117,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 <!------------------------------------ Naytheet.fr ------------------------------------>
 <blockquote class="geekItem blockquote">
 <pre>  38 # **Naytheet.fr** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2015</pre>
-</pre></blockquote>
+</blockquote>
 
 <pre class="codeNumbers"><code>  39
   40
@@ -132,9 +132,9 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 
 </code></pre>
 <!------------------------------------ Es-tu hypocondriaque ? ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: green;">
+<blockquote class="geekItem blockquote autoentrepreneuriat">
 <pre>  44 # **Es-tu hypocondriaque ?** *<span style="font-style: italic;">Développeur Back-End</span>* : 2013</pre>
-</pre></blockquote>
+</blockquote>
 
 <pre class="codeNumbers"><code>  45
   46
@@ -149,9 +149,9 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 
 </code></pre>
 <!------------------------------------ 48h de Gujan ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: green;">
-<pre>  50 # **48h de Gujan** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2013</pre>
-</pre></blockquote>
+<blockquote class="geekItem blockquote autoentrepreneuriat">
+<pre>  50 # **48h de Gujan** *<span style="font-style: italic;">Développeur Front-end</span>* : 2013</pre>
+</blockquote>
 
 <pre class="codeNumbers"><code>  51
   52
@@ -167,11 +167,11 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 
 <!------------------------------------ Mais aussi ------------------------------------>
-<blockquote class="geekItem blockquote" style="background-color: green;">
+<blockquote class="geekItem blockquote all-colors-gradient">
 <pre>  56 # **Too much is not enough !**</pre>
-</pre></blockquote>
+</blockquote>
 
-<pre class="codeNumbers medley" style="line-height: 12px"><code>  59
+<pre class="codeNumbers"><code class="medley">  59
   60
   61
   62
@@ -180,18 +180,15 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
   65
   66
 </code></pre>
-<pre><code class="medley">      <span style="background-color: rgb(71, 178, 157); font-weight: bold;">Winamp Podcast Pack</span> : <span class="jobTitle">Développeur Applicatif</span> - 2023
-      <span style="background-color: brown; font-weight: bold;">Ecostreet</span> : <span class="jobTitle">Développeur Front-End</span>, rédacteur / traducteur - 2017
-      <span style="background-color: brown; font-weight: bold;">Drumpad</span> : <span class="jobTitle">Développeur Back-End</span> - utilisation d'un espace googleplay pour 
+<pre><code class="medley">      <span class="volontariat">Winamp Podcast Pack</span> : <span class="jobTitle">Développeur Applicatif</span> - 2023
+      <span class="formations">Ecostreet</span> : <span class="jobTitle">Développeur Front-End</span>, rédacteur / traducteur - 2017
+      <span class="formations">Drumpad</span> : <span class="jobTitle">Développeur Back-End</span> - utilisation d'un espace googleplay pour 
                                                             un projet Java - 2017
-      <span style="background-color: blueviolet; font-weight: bold;">Computer Mobile Service</span> : <span class="jobTitle">Développeur Front-End</span> - 2015
+      <span class="missions">Computer Mobile Service</span> : <span class="jobTitle">Développeur Front-End</span> - 2015
       <span class="volontariat">Universoft</span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
-      <span style="background-color: green; font-weight: bold;">Visioserenity Pro</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
-      <span style="background-color: green; font-weight: bold;">Le chai des vins</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+      <span class="autoentrepreneuriat">Visioserenity Pro</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+      <span class="autoentrepreneuriat">Le chai des vins</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
 </code></pre>
-</pre></blockquote>
-
-
 
 
       </div>
@@ -202,10 +199,26 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 <script type="text/javascript">
 $( document ).ready(function() {
 
-/*       document.body.style.zoom = "95%";*/
+    (function() {
+        var beforePrint = function() {
+           document.body.style.zoom = "100%"
+        };
 
+        if (window.matchMedia) {
+            var mediaQueryList = window.matchMedia('print');
+            mediaQueryList.addListener(function(mql) {
+                if (mql.matches) {
+                    beforePrint();
+                } else {
 
-});
+                }
+            });
+        }
+
+        window.onbeforeprint = beforePrint;
+    }());
+
+})
 </script>
 
 </body>

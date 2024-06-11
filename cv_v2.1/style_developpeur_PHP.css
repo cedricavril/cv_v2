@@ -1,187 +1,3 @@
-@page{
-  margin: 0;
-}
-
-@media print{
-    .geekItem.blockquote {
-/*      padding: 19px;*/
-  }
-}
-
-html {
-    -webkit-print-color-adjust: exact;
-    -webkit-filter: opacity(1);
-}
-
-html, body, .cv-container {
-        height: 1122px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body * {
-  margin: 0;
-}
-
-body {
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 20px;
-  font-weight: 300;
-}
-
-.text-darkblue {
-  color: #002060;
-}
-
-.header {
-  padding: 34px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  background-color: #F2F2F2;
-  width: 528px;
-  float: left;
-}
-
-.infos {
-  columns: 2;
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px;
-}
-
-.headerLogos {
-	position: absolute;
-	image-rendering: smooth;
-
-  border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
-  -moz-border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
-  -webkit-border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
-
-  -webkit-box-shadow: 5px 5px 10px 4px #47B29D; 
-  box-shadow: 5px 5px 10px 4px #47B29D inset; 
-  top: 0;
-  background-color: aliceblue;
-  width: 90px;
-}
-
-ul.infos li:last-child {
-  padding-top: 32px;
-  text-align: right;
-}
-
-.geekItem.blockquote {
-  background-color: #47B29D;
-}
-
-.blockquote {
-  font-size: 8px;
-  margin: 0;
-}
-
-.cv-container{
-  width: 794px;
-}
-
-.left-column, .right-column, .right-column-two{
-  width: 264px;
-  float: left;
-}
-
-.left-column-margin{
-  margin-left: 216px;
-  background-color: inherit;
-  height: 1095px;
-  width: 24px;
-  position: absolute;
-  z-index: 10;
-}
-
-.left-column{
-  padding: 24px;
-  padding-bottom: 66px;
-  background-color: #4472C4;
-  color: white;
-}
-
-.portrait{
-  margin: auto;
-  display: block;
-  width: 33%;
-}
-
-.portrait, .section{
-  margin-bottom: 15px;
-}
-
-.section .card {
-  margin: auto;
-  width: fit-content;
-  margin-top: 5px;
-}
-
-.section h2{
-  font-size: 22px;
-  margin: 0 0 4px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 36px;}
-
-.skills, .skill, .subskill {
-  list-style-type: none;
-  padding: 0;
-  letter-spacing: 1px;
-}
-
-.subskill {
-  display: inline;
-  position: absolute;
-  left: 0;
-  text-align: right;
-  width: 240px;
-}
-
-.subskill:after{
-  content: attr(data-text);
-  background-color: #4472C4;
-  font-size: 12px;
-  letter-spacing: initial;
-}
-
-.dots,.lessDots,.moreDots{
-  display: inline;
-  position: absolute;
-  z-index: 0;
-  overflow: hidden;
-}
-
-.dots::after {
-  content: "...........................................";
-}
-
-.moreDots::after {
-  content: ".............................................";
-}
-
-.lessDots::after {
-  content: "........................";
-}
-
-.langues {
-  background-color: rgb(0,32,96);
-}
-
-.card.card-body pre{
-  color: white;
-}
-
-.card-body.shadow-lg.rounded{
-  background-color: rgb(0,32,96); 
-  border: cornflowerblue;
-}
-
 .geekItem.body, .geekItem.body pre code {
   color: white;
   background-color: #2E3238;
@@ -189,77 +5,9 @@ ul.infos li:last-child {
   line-height: 14px;
   font-weight: normal;
 }
-.geekItem.body {
-  font-size-adjust: .8;
-}
-
-pre {
-  font-weight: bold;
-  font-size: .8em;
-}
-
-.codeNumbers {
-  position: absolute;
-  display: block;
-}
-
-.geekItem.body pre.codeNumbers code {
-  color: grey;
-}
-
-.indent {
-  font-weight: bold; 
-  letter-spacing: 3px;
-  margin-left: 8px;
-  border-left: 1px dotted grey;
-  display: -webkit-inline-box;
-}
-
-.jobTitle{
-  color: #8BE9FD;
-  font-style: italic; 
-  font-weight: bold;
-}
-
-.vocabularyLevel3{
-  font-weight: bold;
-  color: #FF24C5;
-}
-
-.vocabularyLevel2{
-  font-weight: bold;
-  color: #F1FA8C;
-}
-
-.vocabularyLevel1{
-  font-weight: bold;
-  color: #50FA7B;
-}
-
-
-
-
-
-h1 {
-  margin-bottom: 8px;
-  font-size: x-large;
-}
-
-.right-column {
-  width: 0;
-}
-
-.right-column-two {
-  width: 528px;
-}
-
-.setBookmark {
-  left: 270px;
-  position: absolute;
-}
 
 .geekItem pre code.medley {
-  line-height: 10px;
+  line-height: 12px;
 }
 
 .card-body.shadow-lg.rounded {
@@ -269,21 +17,29 @@ h1 {
   color: white;
 }
 
-.volontariat, .card-body.shadow-lg.rounded.volontariat {
+.volontariat, .card-body.shadow-lg.rounded.volontariat, .blockquote.volontariat {
   background-color: rgb(71, 178, 157); 
+  font-weight: bold;
 }
 
-.missions, .card-body.shadow-lg.rounded.missions {
+.missions, .card-body.shadow-lg.rounded.missions, .blockquote.missions {
   background-color: blueviolet;
+  font-weight: bold;
 }
 
-.formations, .card-body.shadow-lg.rounded.formations {
+.formations, .card-body.shadow-lg.rounded.formations, .blockquote.formations {
   background-color: brown;
   text-align: center;
+  font-weight: bold;
 }
 
-.autoentrepreneuriat, .card-body.shadow-lg.rounded.autoentrepreneuriat {
+.geekItem.blockquote.formations {
+  text-align: left;
+}
+
+.autoentrepreneuriat, .card-body.shadow-lg.rounded.autoentrepreneuriat, .blockquote.autoentrepreneuriat {
   background-color: green;
+  font-weight: bold;
 }
 
 .right-column .content .legende {
@@ -296,3 +52,24 @@ h1 {
 .right-column .content .section .card, .right-column .content .card {
   position: absolute;
 }
+
+.all-colors-gradient {
+  background-image: linear-gradient(to left, green, blueviolet, brown, rgb(71, 178, 157));
+}
+
+.left-column-margin{
+  margin-left: 216px;
+  background-color: inherit;
+  height: 1092px;
+  width: 24px;
+  position: absolute;
+  z-index: 10;
+}
+
+.left-column{
+  padding: 24px;
+  padding-bottom: 8px;
+  background-color: #4472C4;
+  color: white;
+}
+
