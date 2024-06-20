@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Curriculum vitae PHP</title>
+  <title>Curriculum vitae JS</title>
   <?php require("include/head.html") ?>
   <link rel="stylesheet" type="text/css" href="style_developpeur_JS.css">
 </head>
@@ -21,8 +21,8 @@ sécurité en production et avancer en local.
 
 </pre></code>
 <!------------------------------------ Winamp Podcast Pack ------------------------------------>
-  <blockquote class="geekItem blockquote volontariat">
-<pre>   1 # **Winamp Podcast Pack** *<span style="font-style: italic;">Développeur Applicatif</span>* : 2023
+  <blockquote class="geekItem blockquote missions">
+<pre>   1 # **Winamp Podcast Pack** *<span style="font-style: italic;">Développeur Applicatif</span>* : <span class="year">2023</span>
 </pre></blockquote>
   <pre class="codeNumbers"><code>   2
    3
@@ -37,7 +37,7 @@ sécurité en production et avancer en local.
     </code></pre>
 <!------------------------------------ ASSUR&MF ------------------------------------>
 <blockquote class="geekItem blockquote missions" >
-<pre>   7 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2019</pre>
+<pre>   7 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   8
    9
@@ -61,7 +61,7 @@ sécurité en production et avancer en local.
 </code></pre>
 <!------------------------------------ William Theviot ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  17 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : 2018</pre>
+<pre>  17 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  18
   19
@@ -76,7 +76,7 @@ sécurité en production et avancer en local.
     </code></pre>
 <!------------------------------------ Odilezen ------------------------------------>
     <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  23 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2018</pre>
+<pre>  23 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  24
   25
@@ -93,7 +93,7 @@ sécurité en production et avancer en local.
   </code></pre>
 <!------------------------------------ Hôtel les pins ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  30 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2017</pre>
+<pre>  30 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  31
   32
@@ -126,9 +126,9 @@ sécurité en production et avancer en local.
       <span class="formations">Atelier Galerie 5F</span> : <span class="jobTitle">Développeur Full Stack</span> - 2017
       <span class="formations">Drumpad</span> : <span class="jobTitle">Développeur Back-End</span> - 2017
       <span class="formations">Ecostreet</span> : <span class="jobTitle">Développeur Front-End</span> - 2017
-      <span class="volontariat">Naytheet.fr</span> : <span class="jobTitle">Développeur Full Stack</span> - 2015
+      <span class="missions">Naytheet.fr</span> : <span class="jobTitle">Développeur Full Stack</span> - 2015
       <span class="missions">Computer Mobile Service</span> : <span class="jobTitle">Développeur Front-End</span> - 2015
-      <span class="volontariat">Universoft</span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
+      <span class="missions">Universoft</span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
       <span class="autoentrepreneuriat">Es-tu hyponcondriaque ?</span> : <span class="jobTitle">Développeur Back-End</span> - 2013
       <span class="autoentrepreneuriat">Le chai des vins</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
       <span class="autoentrepreneuriat">48h de Gujan</span> : <span class="jobTitle">Développeur Front-End</span> - 2013

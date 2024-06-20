@@ -1,13 +1,13 @@
 <div class="left-column" style="line-height: 17px;">
   <div class="left-column-margin"></div>
-  <img class="portrait" src="nouveauLogo2AvecSousTitre.svg" />
-  <div class="section">
+  <img class="headerLogos2" src="nouveauLogo2AvecSousTitre.svg" />
+<!--   <div class="section">
     <p>
       <i class="icon fab fa-linkedin text-darkblue"></i> cedricavril
     </p>
   </div>
-
-  <div class="section">
+ -->
+  <div class="section" style="padding-top: 14px;">
     <h2>À PROPOS</h2>
   <p>Le développement? Ma carrière, ma passion. Mes missions? Créer, améliorer, enjoliver, servir. Écrire via mes app sous une VM. Corriger des romans avec mon script pour calibre, faire un MOD pour SMF, documenter, versionner, tutorer.</p>
   </div>
@@ -106,23 +106,26 @@
 </div>
 
 <div class="header">
-  <img class="headerLogos" src="logo_js.svg"  style="left: 550px; top: 45px; z-index: 1;" />
-  <img class="headerLogos" src="logo_css3.svg"  style="left: 605px; top: 20px;" />
+<!--   <img class="headerLogos" src="nouveauLogo2AvecSousTitre.svg"  style="left: 550px; top: 45px; z-index: 1;" /> -->
   <img class="headerLogos" src="logo_html5.svg"  style="left: 516px;" />
-  <img class="headerLogos" src="logo_jquery.svg"  style="left: 440px; top: 50px;" />
-  <img class="headerLogos" src="logo_bs.svg"  style="left: 680px;" />
-  <h1>Cédric <span class="text-blue text-uppercase">Avril</span></h1>
-  <p class="text-uppercase">intégrateur web</p>
+  <img class="headerLogos" src="logo_js.svg"  style="left: 568px; top: 45px;" />
+  <img class="headerLogos" src="logo_bs.svg"  style="left: 701px;" />
+  <img class="headerLogos" src="logo_css3.svg"  style="left: 630px; top: 20px;" />
+  <img class="headerLogos" src="logo_jquery.svg"  style="left: 444px; top: 50px;" />
+  <h1 style="margin-bottom: 0px;">Cédric <span class="text-uppercase">Avril</span></h1>
+  <p style="font-style: italic;
+  font-size: 17px;
+  font-family: initial;
+  font-weight: bold;">Intégrateur Web</p>
   <ul class="infos">
-    <li><i class="icon fas fa-at text-blue"></i> <a href="mailto:contact@naytheet.fr">contact@naytheet.fr</a></li>
-    <li><i class="icon fas fa-phone text-blue"></i> <a href="tel:0660999649"> 06 60 99 96 49</a></li>
+<?php include "cssWarp-compound.html" ?>
   </ul>
 </div>
 
 <div class="right-column">
   <div class="content">
     <div class="card" style="top : 1060px; left: 35px; z-index: 100;">
-      <div class="card-body shadow-lg rounded legende" style="padding-bottom: 0px;">
+      <div class="card-body shadow-lg rounded legende" style="padding-bottom: 16px;">
         <div style="width: 117px;"></div>
       </div>
     </div>
@@ -133,18 +136,13 @@
         </div>
     </div>
     <div class="section">
-      <div class="formations" style="color: white; font-size: 14px; position: absolute; top : 1082px; left: 120px; height: 14px; line-height: 14px; z-index: 101;">
+      <div class="formations" style="color: white; font-size: 14px; position: absolute; top : 1100px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
           <pre>Formations</pre>
       </div>
     </div>
     <div class="section">
-      <div class="missions" style="color: white; font-size: 14px; position: absolute; top : 1064px; left: 173px; height: 14px; line-height: 14px; z-index: 101;">
-          <pre>Missions</pre>
-      </div>
-    </div>
-    <div class="section">
-      <div class="volontariat" style="color: white; font-size: 14px; position: absolute; top : 1082px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
-          <pre>Volontariat</pre>
+      <div class="missions" style="color: white; font-size: 14px; position: absolute; top : 1082px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
+          <pre>Missions, Volontariat</pre>
       </div>
     </div>
   </div>

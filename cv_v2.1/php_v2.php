@@ -12,13 +12,13 @@
     <div class="right-column-two">
         <div class="content">
         <div class="geekItem body">
-<code><pre>&#60;!-- <span class="jobTitle "> PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> PROG PEOPLE (Azote) </span> ET NAYTHEET.FR (FSH)</span>
+<code><pre>&#60;!-- <span class="jobTitle "> PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> PROG PEOPLE (Azote) </span> ET NAYTHEET.FR (FSH)
 Vous pouvez consulter mon tutoriel chez developpez.com
 en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>. 
 --></pre></code>
 <!------------------------------------ ASSUR&MF ------------------------------------>
 <blockquote class="geekItem blockquote missions" >
-<pre>   1 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2019</pre>
+<pre>   1 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   2
    3
@@ -36,7 +36,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Jardin et écotourisme ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>   8 # **Jardin et écotourisme** *<span style="font-style: italic;">Maintenance</span>* : 2018</pre>
+<pre>   8 # **Jardin et écotourisme** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   9
   10
@@ -55,7 +55,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ William Theviot ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  15 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : 2018</pre>
+<pre>  15 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  16
   17
@@ -70,7 +70,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
     </code></pre>
 <!------------------------------------ Odilezen ------------------------------------>
     <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  21 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2018</pre>
+<pre>  21 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  22
   23
@@ -88,7 +88,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
   </code></pre>
 <!------------------------------------ Hôtel les pins ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  28 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2017</pre>
+<pre>  28 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  29
   30
@@ -102,7 +102,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Atelier Galerie 5F ------------------------------------>
   <blockquote class="geekItem blockquote formations">
-<pre>  33 # **Atelier Galerie 5F** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2017
+<pre>  33 # **Atelier Galerie 5F** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span>
 </pre></blockquote>
   <pre class="codeNumbers"><code>  34
   35
@@ -116,7 +116,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Naytheet.fr ------------------------------------>
 <blockquote class="geekItem blockquote">
-<pre>  38 # **Naytheet.fr** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2015</pre>
+<pre>  38 # **Naytheet.fr** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2015</span></pre>
 </blockquote>
 
 <pre class="codeNumbers"><code>  39
@@ -133,7 +133,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Es-tu hypocondriaque ? ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  44 # **Es-tu hypocondriaque ?** *<span style="font-style: italic;">Développeur Back-End</span>* : 2013</pre>
+<pre>  44 # **Es-tu hypocondriaque ?** *<span style="font-style: italic;">Développeur Back-End</span>* : <span class="year">2013</span></pre>
 </blockquote>
 
 <pre class="codeNumbers"><code>  45
@@ -150,7 +150,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ 48h de Gujan ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  50 # **48h de Gujan** *<span style="font-style: italic;">Développeur Front-end</span>* : 2013</pre>
+<pre>  50 # **48h de Gujan** *<span style="font-style: italic;">Développeur Front-end</span>* : <span class="year">2013</span></pre>
 </blockquote>
 
 <pre class="codeNumbers"><code>  51

@@ -17,10 +17,6 @@
   padding-bottom: 55px;
 }
 
-.all-colors-gradient2{
-  background-image: linear-gradient(to top, green, blueviolet, brown, rgb(71, 178, 157));
-}
-
 .left-column-margin{
   margin-left: 216px;
   background-color: inherit;
@@ -31,8 +27,6 @@
 }
 
 .left-column{
-  padding: 24px;
-  padding-bottom: 47px;
   background-color: #4472C4;
   color: white;
 }

@@ -10,13 +10,6 @@
   line-height: 12px;
 }
 
-.right-column .content .legende{
-  background-color: whitesmoke;
-  border: cornflowerblue;
-  padding: 60px;
-  padding-bottom: 55px;
-}
-
 .left-column-margin{
   margin-left: 216px;
   background-color: inherit;
@@ -27,8 +20,6 @@
 }
 
 .left-column{
-  padding: 24px;
-  padding-bottom: 8px;
   background-color: #4472C4;
   color: white;
 }

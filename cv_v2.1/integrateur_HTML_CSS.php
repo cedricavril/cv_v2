@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Curriculum vitae PHP</title>
+  <title>Curriculum vitae Intégrateur Web</title>
   <?php require("include/head.html") ?>
   <link rel="stylesheet" type="text/css" href="style_integrateur.css">
 </head>
@@ -19,8 +19,8 @@ naturel pour faciliter le top ranking. </span>-->
 
 </pre></code>
 <!------------------------------------ Winamp Podcast Pack ------------------------------------>
-  <blockquote class="geekItem blockquote volontariat">
-<pre>   1 # **Winamp Podcast Pack** *<span style="font-style: italic;">Développeur Applicatif</span>* : 2023
+  <blockquote class="geekItem blockquote missions">
+<pre>   1 # **Winamp Podcast Pack** *<span style="font-style: italic;">Développeur Applicatif</span>* : <span class="year">2023</span>
 </pre></blockquote>
   <pre class="codeNumbers"><code>   2
    3
@@ -35,7 +35,7 @@ naturel pour faciliter le top ranking. </span>-->
     </code></pre>
 <!------------------------------------ ASSUR&MF ------------------------------------>
 <blockquote class="geekItem blockquote missions" >
-<pre>   7 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2019</pre>
+<pre>   7 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   8
    9
@@ -55,7 +55,7 @@ naturel pour faciliter le top ranking. </span>-->
 </code></pre>
 <!------------------------------------ William Theviot ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  15 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : 2018</pre>
+<pre>  15 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  16
   17
@@ -70,7 +70,7 @@ naturel pour faciliter le top ranking. </span>-->
     </code></pre>
 <!------------------------------------ Odilezen ------------------------------------>
     <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  21 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : 2018</pre>
+<pre>  21 # **Odilezen** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  22
   23
@@ -86,7 +86,7 @@ naturel pour faciliter le top ranking. </span>-->
 </code></pre>
 <!------------------------------------ Ecostreet ------------------------------------>
     <blockquote class="geekItem blockquote formations">
-<pre>  27 # **Ecostreet** *<span style="font-style: italic;">Développeur Front-End</span>* : 2017</pre>
+<pre>  27 # **Ecostreet** *<span style="font-style: italic;">Développeur Front-End</span>* : <span class="year">2017</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  28
   29
@@ -99,7 +99,7 @@ naturel pour faciliter le top ranking. </span>-->
     </code></pre>
 <!------------------------------------ Computer Mobile Service ------------------------------------>
 <blockquote class="geekItem blockquote formations">
-<pre>  32 # **Computer Mobile Service** *<span style="font-style: italic;">Développeur Front-End</span>* : 2015</pre>
+<pre>  32 # **Computer Mobile Service** *<span style="font-style: italic;">Développeur Front-End</span>* : <span class="year">2015</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  33
   34
@@ -109,8 +109,8 @@ naturel pour faciliter le top ranking. </span>-->
       Création d'un site <span class="vocabularyLevel3">vitrine</span> <span class="vocabularyLevel1">responsive</span> calqué sur une <span class="vocabularyLevel3">maquette</span> tierce
     </code></pre>
 <!------------------------------------ Universoft ------------------------------------>
-<blockquote class="geekItem blockquote volontariat">
-<pre>  36 # **Universoft** *<span style="font-style: italic;">Développeur Applicatif</span>* : 2014</pre>
+<blockquote class="geekItem blockquote missions">
+<pre>  36 # **Universoft** *<span style="font-style: italic;">Développeur Applicatif</span>* : <span class="year">2014</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  37
   38
@@ -122,8 +122,8 @@ naturel pour faciliter le top ranking. </span>-->
          application tierce obsolète
     </code></pre>
 <!------------------------------------ 48h de Gujan ------------------------------------>
-<blockquote class="geekItem blockquote volontariat">
-<pre>  41 # **48h de Gujan** *<span style="font-style: italic;">Développeur Front-end</span>* : 2013</pre>
+<blockquote class="geekItem blockquote missions">
+<pre>  41 # **48h de Gujan** *<span style="font-style: italic;">Développeur Front-end</span>* : <span class="year">2013</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  42
   43
@@ -150,7 +150,7 @@ naturel pour faciliter le top ranking. </span>-->
       <span class="autoentrepreneuriat">Hotel les pins</span> : <span class="jobTitle">Développeur Full Stack</span> - 2017
       <span class="formations">Atelier Galerie 5F</span> : <span class="jobTitle">Développeur Full Stack</span> - 2017
       <span class="formations">Drumpad</span> : <span class="jobTitle">Développeur Back-End</span> - 2017
-      <span class="volontariat">Naytheet.fr</span> : <span class="jobTitle">Développeur Full Stack</span> - 2015
+      <span class="missions">Naytheet.fr</span> : <span class="jobTitle">Développeur Full Stack</span> - 2015
       <span class="autoentrepreneuriat">Es-tu hyponcondriaque ?</span> : <span class="jobTitle">Développeur Back-End</span> - 2013
       <span class="autoentrepreneuriat">Le chai des vins</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
       <span class="autoentrepreneuriat">Visioserenity Pro</span> : <span class="jobTitle">Développeur Front-End</span> - 2013</code></pre>

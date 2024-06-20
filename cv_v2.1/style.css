@@ -43,6 +43,7 @@ body{
   background-color: #F2F2F2;
   width: 528px;
   float: left;
+  padding-bottom: 53px;
 }
 
 .infos{
@@ -90,11 +91,41 @@ ul.infos li:last-child{
   float: left;
 }
 
+.left-column{
+  padding: 24px;
+  padding-top: 10px;
+  padding-bottom: 52px;
+}
+
+
 .portrait{
   margin: auto;
   display: block;
   width: 33%;
 }
+
+/*du coup virer portrait*/
+.headerLogos2 {
+  margin: auto;
+  display: block;
+/*  width: 33%;*/
+
+  image-rendering: smooth;
+
+  border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
+  -moz-border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
+  -webkit-border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
+
+  -webkit-box-shadow: 5px 5px 10px 4px #47B29D; 
+  box-shadow: 5px 5px 10px 4px #47B29D inset; 
+  top: 0;
+  background-color: aliceblue;
+  width: 140px;
+
+
+
+}
+
 
 .portrait, .section{
   margin-bottom: 23px;
@@ -206,6 +237,7 @@ pre{
   margin-left: 8px;
   border-left: 1px dotted grey;
   display: -webkit-inline-box;
+  position: fixed;
 }
 
 .jobTitle{
@@ -232,11 +264,6 @@ pre{
 
 
 
-
-h1{
-  margin-bottom: 8px;
-  font-size: x-large;
-}
 
 .right-column{
   width: 0;
@@ -327,7 +354,7 @@ h1{
 }
 
 .right-column-two .content .geekItem.body code pre{
-  font-size: 7px;
+/*  font-size: 7px;*/
   color: white;
 }
 
@@ -337,7 +364,7 @@ h1{
 
 pre{
   font-weight: bold;
-  font-size: .8em;
+/*  font-size: .8em;*/
 }
 
 .codeNumbers{
@@ -383,7 +410,7 @@ pre{
 
 h1{
   margin-bottom: 8px;
-  font-size: x-large;
+  font-size: 36px;
 }
 
 .right-column{
@@ -400,7 +427,7 @@ h1{
 }
 
 .all-colors-gradient{
-  background-image: linear-gradient(to left, green, blueviolet, brown, rgb(71, 178, 157));
+  background-image: linear-gradient(to left, green, blueviolet, brown);
 }
 
 .volontariat, .card-body.shadow-lg.rounded.volontariat, .blockquote.volontariat{
@@ -430,4 +457,19 @@ h1{
 
 .right-column .content .section .card, .right-column .content .card{
   position: absolute;
+}
+
+.all-colors-gradient2{
+  background-image: linear-gradient(to top, green, blueviolet, brown);
+}
+
+.right-column .content .legende{
+  background-color: #2E3238;
+  border: cornflowerblue;
+  padding: 40px;
+  padding-bottom: 55px;
+}
+
+.year {
+  font-weight: lighter;
 }
