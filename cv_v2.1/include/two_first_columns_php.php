@@ -107,9 +107,9 @@
 
 <div class="header">
   <img class="headerLogos" src="logo_jquery.svg"  style="left: 701px;" />
-  <img class="headerLogos" src="logo_bs.svg"  style="left: 611px;" />
+  <img class="headerLogos" src="logo_bs.svg"  style="left: 620px; top: 46px;" />
   <img class="headerLogos" src="logo_php.svg" style="left: 456px; top: 46px;" />
-  <img class="headerLogos" src="logo_mysql.svg"  style="left: 534px; top: 45px;" />
+  <img class="headerLogos" src="logo_mysql.svg"  style="left: 538px;" />
   <h1 style="margin-bottom: 0px;">Cédric <span class="text-uppercase">Avril</span></h1>
   <p style="font-style: italic;
   font-size: 17px;

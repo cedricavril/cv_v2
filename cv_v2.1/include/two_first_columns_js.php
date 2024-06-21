@@ -106,11 +106,11 @@
 </div>
 
 <div class="header">
-  <img class="headerLogos" src="logo_html5.svg"  style="left: 516px;" />
-  <img class="headerLogos" src="logo_js.svg"  style="left: 568px; top: 45px;" />
+  <img class="headerLogos" src="logo_html5.svg"  style="left: 492px; top: 50px;" />
+  <img class="headerLogos" src="logo_js.svg"  style="left: 562px;" />
   <img class="headerLogos" src="logo_bs.svg"  style="left: 701px;" />
-  <img class="headerLogos" src="logo_css3.svg"  style="left: 630px; top: 20px;" />
-  <img class="headerLogos" src="logo_jquery.svg"  style="left: 444px; top: 50px;" />
+  <img class="headerLogos" src="logo_css3.svg"  style="left: 632px; top: 50px;" />
+  <img class="headerLogos" src="logo_jquery.svg"  style="left: 405px; top: 50px;" />
   <h1 style="margin-bottom: 0px;">Cédric <span class="text-uppercase">Avril</span></h1>
   <p style="font-style: italic;
   font-size: 17px;
