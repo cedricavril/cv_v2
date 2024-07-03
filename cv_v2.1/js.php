@@ -8,21 +8,40 @@
 <body>
 
   <div class="cv-container">
-<?php include("include/two_first_columns_js.php") ?>
-    <div class="right-column-two">
+
+<?php include("include/left_area.php") ?>
+
+<div class="header">
+  <img class="headerLogos" src="logo_html5.svg"  style="left: 498px; top: 60px;" />
+  <img class="headerLogos" src="logo_js.svg"  style="left: 565px;" />
+  <img class="headerLogos" src="logo_bs.svg"  style="left: 700px;" />
+  <img class="headerLogos" src="logo_css3.svg"  style="left: 633px; top: 60px;" />
+  <img class="headerLogos" src="logo_jquery.svg"  style="left: 408px; top: 60px;" />
+  <h1 style="margin-bottom: 0px;">Cédric <span class="text-uppercase">Avril</span></h1>
+  <p style="font-style: italic;
+  font-size: 17px;
+  font-family: initial;
+  font-weight: bold;
+  height: 18px;
+  ">Développeur<br>Javascript</p>
+  <ul class="infos">
+<?php include "include/cssWarp-compound.html" ?>
+  </ul>
+</div>
+
+    <div class="coin-geek">
         <div class="content">
         <div class="geekItem body">
-<code><pre>&#60;!--
-<span class="jobTitle ">PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> PROG PEOPLE (Azote) </span> ET NAYTHEET.FR (FSH)</span>
+<code><pre>&#60;!--<span class="jobTitle ">PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> <a target="blank" href="https://naytheet.fr.cr">PROG PEOPLE (Azote)</a> </span> ET <a target="blank" href="https://naytheet.fr">NAYTHEET.FR (FSH)</a></span>
 <span class="jobTitle">Utilisation de JS dans la console des différents navigateurs pour tester la 
 sécurité en production et avancer en local. 
-<u>Green Code</u> : utilisation du concept Ajax directement avec XHR quand c'est possible.</span>
+<span class="vocabularyLevel1">Green Code</span> : utilisation du concept Ajax directement avec XHR quand c'est possible.</span>
 -->
 
 </pre></code>
 <!------------------------------------ Winamp Podcast Pack ------------------------------------>
   <blockquote class="geekItem blockquote missions">
-<pre>   1 # **Winamp Podcast Pack** *<span style="font-style: italic;">Développeur Applicatif</span>* : <span class="year">2023</span>
+<pre>   1 # **<a target="blank" href="https://naytheet.fr/Web/public-news-44.php">Winamp Podcast Pack</a>** *<span style="font-style: italic;">Développeur Applicatif</span>* : <span class="year">2023</span>
 </pre></blockquote>
   <pre class="codeNumbers"><code>   2
    3
@@ -37,7 +56,7 @@ sécurité en production et avancer en local.
     </code></pre>
 <!------------------------------------ ASSUR&MF ------------------------------------>
 <blockquote class="geekItem blockquote missions" >
-<pre>   7 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></span></pre>
+<pre>   7 # **<a target="blank" href="https://www.assurmf.fr/">Assur & mf</a>** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   8
    9
@@ -61,7 +80,7 @@ sécurité en production et avancer en local.
 </code></pre>
 <!------------------------------------ William Theviot ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  17 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
+<pre>  17 # **<a target="blank" href="https://www.william-theviot.fr/">William Theviot</a>** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  18
   19
@@ -93,7 +112,7 @@ sécurité en production et avancer en local.
   </code></pre>
 <!------------------------------------ Hôtel les pins ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  30 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span></pre>
+<pre>  30 # **<a href="https://naytheet.fr/Web/oeuvres-web.php#H%C3%B4tel%20Les%20Pins">Hôtel les pins</a>** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  31
   32
@@ -122,17 +141,17 @@ sécurité en production et avancer en local.
   46
   47
 </code></pre>
-    <pre><code class="medley">      <span class="autoentrepreneuriat">Jardin et écotourisme</span> : <span class="jobTitle">Maintenance</span> - 2018
-      <span class="formations">Atelier Galerie 5F</span> : <span class="jobTitle">Développeur Full Stack</span> - 2017
-      <span class="formations">Drumpad</span> : <span class="jobTitle">Développeur Back-End</span> - 2017
-      <span class="formations">Ecostreet</span> : <span class="jobTitle">Développeur Front-End</span> - 2017
-      <span class="missions">Naytheet.fr</span> : <span class="jobTitle">Développeur Full Stack</span> - 2015
-      <span class="missions">Computer Mobile Service</span> : <span class="jobTitle">Développeur Front-End</span> - 2015
-      <span class="missions">Universoft</span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
-      <span class="autoentrepreneuriat">Es-tu hyponcondriaque ?</span> : <span class="jobTitle">Développeur Back-End</span> - 2013
-      <span class="autoentrepreneuriat">Le chai des vins</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
-      <span class="autoentrepreneuriat">48h de Gujan</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
-      <span class="autoentrepreneuriat">Visioserenity Pro</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+    <pre><code class="medley">      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Jardin%20et%20%C3%A9cotourisme">Jardin et écotourisme</a></span> : <span class="jobTitle">Maintenance</span> - 2018
+      <span class="formations"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Atelier%20Galerie%205F">Atelier Galerie 5F</a></span> : <span class="jobTitle">Développeur Full Stack</span> - 2017
+      <span class="formations"><a target="blank" href="https://github.com/cedricavril/digitalDrumpad2">Drumpad</a></span> : <span class="jobTitle">Développeur Back-End</span> - 2017
+      <span class="formations"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Ecostreet">Ecostreet</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2017
+      <span class="formations"><a target="blank" href="https://naytheet.fr">Naytheet.fr</a></span> : <span class="jobTitle">Développeur Full Stack</span> - 2015
+      <span class="missions"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Computer%20Mobile%20Services">Computer Mobile Service</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2015
+      <span class="missions"><a target="blank" href="https://naytheet.fr/Web/oeuvres-soft.php#Universoft">Universoft</a></span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
+      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Es-tu%20hypocondriaque?">Es-tu hyponcondriaque ?</a></span> : <span class="jobTitle">Développeur Back-End</span> - 2013
+      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Le%20chai%20des%20vins">Le chai des vins</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Festival%20annuel%20de%20salsa">48h de Gujan</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#VisioSerenity%20Pro">Visioserenity Pro</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2013
 </code></pre>
 
       </div>
@@ -143,6 +162,7 @@ sécurité en production et avancer en local.
 <script type="text/javascript">
 $( document ).ready(function() {
 
+/*mais imprimer en fait que depuis mon laptop. Voir comment régler ce problème pour pouvoir imprimer depuis partout, paramétrer sans doute @page dans le css.*/
     (function() {
         var beforePrint = function() {
            document.body.style.zoom = "100%"

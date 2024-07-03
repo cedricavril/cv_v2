@@ -37,13 +37,25 @@ body{
 }
 
 .header{
-  padding: 34px;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding: 15px;
+  padding-top: 2px;
   background-color: #F2F2F2;
   width: 528px;
   float: left;
-  padding-bottom: 53px;
+  padding-bottom: 77px;
+}
+
+#call-to-action-new{
+  top: 100px; left: 264px;
+  display: inline;
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  background-color: #2E323899;
+  text-align: center;
+  line-height: 13px;
+  padding: 13px;
+  z-index: 99;
 }
 
 .infos{
@@ -86,7 +98,7 @@ ul.infos li:last-child{
   width: 794px;
 }
 
-.left-column, .right-column, .right-column-two{
+.left-column, .coin-legende, .coin-geek{
   width: 264px;
   float: left;
 }
@@ -170,26 +182,11 @@ ul.infos li:last-child{
   position: absolute;
   z-index: 0;
   overflow: hidden;
-}
-
-.dots::after{
-  content: "...........................................";
-}
-
-.moreDots::after{
-  content: ".............................................";
-}
-
-.lessDots::after{
-  content: "........................";
+  padding: 0px;
 }
 
 .langues{
   background-color: rgb(0,32,96);
-}
-
-.card.card-body pre{
-  color: white;
 }
 
 .card-body.shadow-lg.rounded{
@@ -208,7 +205,7 @@ ul.infos li:last-child{
   font-weight: normal;
 }
 
-.right-column-two .content .geekItem.body code pre{
+.coin-geek .content .geekItem.body code pre{
   font-size: 7px;
   color: white;
 }
@@ -240,12 +237,6 @@ pre{
   position: fixed;
 }
 
-.jobTitle{
-  color: #8BE9FD;
-  font-style: italic; 
-  font-weight: bold;
-}
-
 .vocabularyLevel3{
   font-weight: bold;
   color: #FF24C5;
@@ -265,11 +256,11 @@ pre{
 
 
 
-.right-column{
+.coin-legende{
   width: 0;
 }
 
-.right-column-two{
+.coin-geek{
   width: 528px;
 }
 
@@ -329,11 +320,11 @@ pre{
 }
 
 .dots::after{
-  content: "...........................................";
+  content: "............................................";
 }
 
 .moreDots::after{
-  content: ".............................................";
+  content: "................................................";
 }
 
 .lessDots::after{
@@ -344,18 +335,9 @@ pre{
   background-color: rgb(0,32,96);
 }
 
-.card.card-body pre{
-  color: white;
-}
-
 .card-body.shadow-lg.rounded{
   background-color: rgb(0,32,96); 
   border: cornflowerblue;
-}
-
-.right-column-two .content .geekItem.body code pre{
-/*  font-size: 7px;*/
-  color: white;
 }
 
 .geekItem.body{
@@ -390,6 +372,11 @@ pre{
   font-weight: bold;
 }
 
+.jobTitle a{
+  color: inherit;
+}
+
+
 .vocabularyLevel3{
   font-weight: bold;
   color: #FF24C5;
@@ -413,11 +400,11 @@ h1{
   font-size: 36px;
 }
 
-.right-column{
+.coin-legende{
   width: 0;
 }
 
-.right-column-two{
+.coin-geek{
   width: 528px;
 }
 
@@ -428,6 +415,26 @@ h1{
 
 .all-colors-gradient{
   background-image: linear-gradient(to left, green, blueviolet, brown);
+}
+
+.all-colors-gradient a{
+  color: inherit;
+}
+
+.geekItem blockquote a, li.skill a, .medley a, .card.card-body pre, .coin-geek .content .geekItem.body code pre{
+  color: white;
+}
+
+li.skill a, li a{
+  position: absolute;
+  z-index: 1;
+  padding-left: 5px;
+  background-color: #4472C4;
+  color: white;
+}
+
+li a:hover{
+  color: white;
 }
 
 .volontariat, .card-body.shadow-lg.rounded.volontariat, .blockquote.volontariat{
@@ -455,7 +462,7 @@ h1{
   font-weight: bold;
 }
 
-.right-column .content .section .card, .right-column .content .card{
+.coin-legende .content .section .card, .coin-legende .content .card{
   position: absolute;
 }
 
@@ -463,7 +470,7 @@ h1{
   background-image: linear-gradient(to top, green, blueviolet, brown);
 }
 
-.right-column .content .legende{
+.coin-legende .content .legende{
   background-color: #2E3238;
   border: cornflowerblue;
   padding: 40px;

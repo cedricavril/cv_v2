@@ -1,3 +1,7 @@
+.header {
+  padding-bottom: 62px;
+}
+
 .geekItem.body, .geekItem.body pre code{
   color: white;
   background-color: #2E3238;
@@ -22,4 +26,8 @@
 .left-column{
   background-color: #4472C4;
   color: white;
+}
+
+#call-to-action-new{
+  top: 85px;
 }

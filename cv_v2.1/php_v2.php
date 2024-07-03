@@ -8,17 +8,34 @@
 <body>
 
   <div class="cv-container">
-<?php include("include/two_first_columns_php.php") ?>
-    <div class="right-column-two">
+
+<?php include("include/left_area.php") ?>
+
+<div class="header">
+  <img class="headerLogos" src="logo_jquery.svg"  style="left: 701px;" />
+  <img class="headerLogos" src="logo_bs.svg"  style="left: 620px; top: 46px;" />
+  <img class="headerLogos" src="logo_php.svg" style="left: 456px; top: 46px;" />
+  <img class="headerLogos" src="logo_mysql.svg"  style="left: 538px;" />
+  <h1 style="margin-bottom: 0px;">Cédric <span class="text-uppercase">Avril</span></h1>
+  <p style="font-style: italic;
+  font-size: 17px;
+  font-family: initial;
+  font-weight: bold;">Développeur Web</p>
+  <ul class="infos">
+<?php include "include/cssWarp-compound.html" ?>
+  </ul>
+</div>
+
+    <div class="coin-geek">
         <div class="content">
         <div class="geekItem body">
-<code><pre>&#60;!-- <span class="jobTitle "> PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> PROG PEOPLE (Azote) </span> ET NAYTHEET.FR (FSH)
+<code><pre>&#60;!--<span class="jobTitle ">PROPRIÉTAIRE ET DÉVELOPPEUR DE <span class="all-colors-gradient"> <a target="blank" href="https://naytheet.fr.cr">PROG PEOPLE (Azote)</a> </span> ET <a target="blank" href="https://naytheet.fr">NAYTHEET.FR (FSH)</a>
 Vous pouvez consulter mon tutoriel chez developpez.com
-en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>. 
+en cliquant sur <a target="_blank" href="https://cavril.developpez.com/php/">ce lien</a></span>. 
 --></pre></code>
 <!------------------------------------ ASSUR&MF ------------------------------------>
 <blockquote class="geekItem blockquote missions" >
-<pre>   1 # **Assur & mf** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></pre>
+<pre>   1 # **<a target="blank" href="https://www.assurmf.fr/">Assur & mf</a>** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2019</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   2
    3
@@ -36,7 +53,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Jardin et écotourisme ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>   8 # **Jardin et écotourisme** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
+<pre>   8 # **<a target="_blank" href="https://naytheet.fr/Web/oeuvres-web.php#Jardin%20et%20%C3%A9cotourisme">Jardin et écotourisme</a>** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>   9
   10
@@ -55,7 +72,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ William Theviot ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  15 # **William Theviot** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
+<pre>  15 # **<a target="blank" href="https://www.william-theviot.fr/">William Theviot</a>** *<span style="font-style: italic;">Maintenance</span>* : <span class="year">2018</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  16
   17
@@ -88,7 +105,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
   </code></pre>
 <!------------------------------------ Hôtel les pins ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  28 # **Hôtel les pins** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span></pre>
+<pre>  28 # **<a target="_blank" href="https://naytheet.fr/Web/oeuvres-web.php#H%C3%B4tel%20Les%20Pins">Hôtel les pins</a>** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span></pre>
 </blockquote>
 <pre class="codeNumbers"><code>  29
   30
@@ -102,7 +119,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Atelier Galerie 5F ------------------------------------>
   <blockquote class="geekItem blockquote formations">
-<pre>  33 # **Atelier Galerie 5F** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span>
+<pre>  33 # **<a target="_blank" href="https://naytheet.fr/Web/oeuvres-web.php#Atelier%20Galerie%205F">Atelier Galerie 5F</a>** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2017</span>
 </pre></blockquote>
   <pre class="codeNumbers"><code>  34
   35
@@ -115,8 +132,8 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 
 </code></pre>
 <!------------------------------------ Naytheet.fr ------------------------------------>
-<blockquote class="geekItem blockquote">
-<pre>  38 # **Naytheet.fr** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2015</span></pre>
+<blockquote class="geekItem blockquote missions">
+<pre>  38 # **<a target="_blank" href="https://naytheet.fr">Naytheet.fr</a>** *<span style="font-style: italic;">Développeur Full Stack</span>* : <span class="year">2015</span></pre>
 </blockquote>
 
 <pre class="codeNumbers"><code>  39
@@ -133,7 +150,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ Es-tu hypocondriaque ? ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  44 # **Es-tu hypocondriaque ?** *<span style="font-style: italic;">Développeur Back-End</span>* : <span class="year">2013</span></pre>
+<pre>  44 # **<a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Es-tu%20hypocondriaque?">Es-tu hyponcondriaque ?</a>** *<span style="font-style: italic;">Développeur Back-End</span>* : <span class="year">2013</span></pre>
 </blockquote>
 
 <pre class="codeNumbers"><code>  45
@@ -150,7 +167,7 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
 </code></pre>
 <!------------------------------------ 48h de Gujan ------------------------------------>
 <blockquote class="geekItem blockquote autoentrepreneuriat">
-<pre>  50 # **48h de Gujan** *<span style="font-style: italic;">Développeur Front-end</span>* : <span class="year">2013</span></pre>
+<pre>  50 # **<a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Festival%20annuel%20de%20salsa">48h de Gujan</a>** *<span style="font-style: italic;">Développeur Front-end</span>* : <span class="year">2013</span></pre>
 </blockquote>
 
 <pre class="codeNumbers"><code>  51
@@ -180,14 +197,14 @@ en cliquant sur <a href="https://cavril.developpez.com/php/">ce lien</a></span>.
   65
   66
 </code></pre>
-<pre><code class="medley">      <span class="volontariat">Winamp Podcast Pack</span> : <span class="jobTitle">Développeur Applicatif</span> - 2023
-      <span class="formations">Ecostreet</span> : <span class="jobTitle">Développeur Front-End</span>, rédacteur / traducteur - 2017
-      <span class="formations">Drumpad</span> : <span class="jobTitle">Développeur Back-End</span> - utilisation d'un espace googleplay pour 
+<pre><code class="medley">      <span class="missions"><a target="blank" href="https://naytheet.fr/Web/public-news-44.php">Winamp Podcast Pack</a></span> : <span class="jobTitle">Développeur Applicatif</span> - 2023
+      <span class="formations"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Ecostreet">Ecostreet</a></span> : <span class="jobTitle">Développeur Front-End</span>, rédacteur / traducteur - 2017
+      <span class="formations"><a target="blank" href="https://github.com/cedricavril/digitalDrumpad2">Drumpad</a></span> : <span class="jobTitle">Développeur Back-End</span> - utilisation d'un espace googleplay pour 
                                                             un projet Java - 2017
-      <span class="missions">Computer Mobile Service</span> : <span class="jobTitle">Développeur Front-End</span> - 2015
-      <span class="volontariat">Universoft</span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
-      <span class="autoentrepreneuriat">Visioserenity Pro</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
-      <span class="autoentrepreneuriat">Le chai des vins</span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+      <span class="missions"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Computer%20Mobile%20Services">Computer Mobile Service</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2015
+      <span class="missions"><a target="blank" href="https://naytheet.fr/Web/oeuvres-soft.php#Universoft">Universoft</a></span> : <span class="jobTitle">Développeur Applicatif</span> - 2014
+      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#VisioSerenity%20Pro">Visioserenity Pro</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2013
+      <span class="autoentrepreneuriat"><a target="blank" href="https://naytheet.fr/Web/oeuvres-web.php#Le%20chai%20des%20vins">Le chai des vins</a></span> : <span class="jobTitle">Développeur Front-End</span> - 2013
 </code></pre>
 
 
