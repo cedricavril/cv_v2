@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Curriculum vitae Intégrateur Web</title>
-  <?php require("include/head.html") ?>
-  <link rel="stylesheet" type="text/css" href="style_integrateur.css">
+    <title>Curriculum vitae Intégrateur Web</title>
+<?php require("include/head.html") ?>
+    <link rel="stylesheet" type="text/css" href="style_integrateur.css">
+
+    <script src="hack_chrome_css.js"></script>
+
+    <script type="text/javascript">
+        chrome_hack_css('style_integrateur_chrome.css');
+    </script>
 </head>
 <body>
 

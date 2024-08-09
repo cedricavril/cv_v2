@@ -1,0 +1,7 @@
+.geekItem.body, .geekItem.body pre code {
+    color: white;
+    background-color: #2E3238;
+    font-size: 11px;
+    line-height: 1.42em;
+    font-weight: normal;
+}

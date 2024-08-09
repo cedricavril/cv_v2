@@ -89,8 +89,8 @@
     <h2>Langues</h2>
     <div class="card">
       <div class="card-body shadow-lg rounded langues">
-        <pre>🇪🇸 Espagnol, courant</pre><br>
-        <pre>🇬🇧 Anglais, courant</pre>
+        <pre><img style="width: 20px;" src="Flag_of_Spain.svg"> Espagnol, courant</pre>
+        <pre><img style="width: 20px;" src="Flag_of_UK.svg"> Anglais, courant</pre>
       </div>
     </div>
   </div>
@@ -101,24 +101,24 @@
 
 <div class="coin-legende">
   <div class="content">
-    <div class="card" style="top : 1060px; left: 35px; z-index: 100;">
+    <div class="card" style="top : 1050px; left: 35px; z-index: 100;">
       <div class="card-body shadow-lg rounded legende" style="padding-bottom: 16px;">
         <div style="width: 117px;"></div>
       </div>
     </div>
 
     <div class="section">
-        <div class="autoentrepreneuriat" style="color: white; font-size: 14px; position: absolute; top : 1064px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
+        <div class="autoentrepreneuriat" style="color: white; font-size: 14px; position: absolute; top : 1054px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
           <pre>Autoentrepreneuriat</pre>
         </div>
     </div>
     <div class="section">
-      <div class="formations" style="color: white; font-size: 14px; position: absolute; top : 1100px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
+      <div class="formations" style="color: white; font-size: 14px; position: absolute; top : 1090px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
           <pre>Formations</pre>
       </div>
     </div>
     <div class="section">
-      <div class="missions" style="color: white; font-size: 14px; position: absolute; top : 1082px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
+      <div class="missions" style="color: white; font-size: 14px; position: absolute; top : 1072px; left: 43px; height: 14px; line-height: 14px; z-index: 101;">
           <pre>Missions, Volontariat</pre>
       </div>
     </div>

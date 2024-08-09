@@ -1,0 +1,13 @@
+.geekItem.body, .geekItem.body pre code {
+    color: white;
+    background-color: #2E3238;
+    font-size: 1.04em;
+    line-height: 1.44em;
+/*    font-weight: normal;*/
+/*    padding-bottom: 47px;*/
+}
+
+.geekItem pre code.medley {
+    line-height: 17px;
+}
+

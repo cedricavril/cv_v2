@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Curriculum vitae PHP</title>
-  <?php require("include/head.html") ?>
-  <link rel="stylesheet" type="text/css" href="style_developpeur_PHP.css">
+    <title>Curriculum vitae PHP</title>
+<?php require("include/head.html") ?>
+    <link rel="stylesheet" type="text/css" href="style_developpeur_PHP.css">
+
+    <script src="hack_chrome_css.js"></script>
+
+    <script type="text/javascript">
+        chrome_hack_css('style_developpeur_PHP_chrome.css');
+    </script>
 </head>
 <body>
 
@@ -95,7 +101,6 @@ en cliquant sur <a target="_blank" href="https://cavril.developpez.com/php/">ce 
   25<span class="indent"></span>
   26<span class="indent">⸱⸱</span>
   27
-
 </code></pre>
    <pre><code>
       <span class="jobTitle">Back-end</span>:

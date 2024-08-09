@@ -8,10 +8,11 @@
   }
 }
 
+/* chrome isn't letting link to work in pdf with these rules */
 html{
-    -webkit-print-color-adjust: exact;
+/*    -webkit-print-color-adjust: exact;
     -webkit-filter: opacity(1);
-}
+*/}
 
 html, body, .cv-container{
         height: 1122px;
@@ -31,6 +32,12 @@ body{
   line-height: 20px;
   font-weight: 300;
 }
+
+/*code{
+  font-family: Roboto;
+  font-size: 7px;
+}
+*/
 
 .text-darkblue{
   color: #002060;
@@ -106,7 +113,7 @@ ul.infos li:last-child{
 .left-column{
   padding: 24px;
   padding-top: 10px;
-  padding-bottom: 52px;
+  padding-bottom: 58px;
 }
 
 
@@ -185,15 +192,11 @@ ul.infos li:last-child{
   padding: 0px;
 }
 
-.langues{
-  background-color: rgb(0,32,96);
-}
-
 .card-body.shadow-lg.rounded{
   background-color: rgb(0,32,96); 
   border: cornflowerblue;
   font-weight: bold;
-  padding: 10px;
+  padding: 14px;
   color: white;
 }
 
@@ -234,7 +237,6 @@ pre{
   margin-left: 8px;
   border-left: 1px dotted grey;
   display: -webkit-inline-box;
-  position: fixed;
 }
 
 .vocabularyLevel3{
@@ -333,6 +335,7 @@ pre{
 
 .langues{
   background-color: rgb(0,32,96);
+  font-size: 1.1em;
 }
 
 .card-body.shadow-lg.rounded{
@@ -344,11 +347,6 @@ pre{
   font-size-adjust: .8;
 }
 
-pre{
-  font-weight: bold;
-/*  font-size: .8em;*/
-}
-
 .codeNumbers{
   position: absolute;
   display: block;
@@ -356,14 +354,6 @@ pre{
 
 .geekItem.body pre.codeNumbers code{
   color: grey;
-}
-
-.indent{
-  font-weight: bold; 
-  letter-spacing: 3px;
-  margin-left: 8px;
-  border-left: 1px dotted grey;
-  display: -webkit-inline-box;
 }
 
 .jobTitle{
