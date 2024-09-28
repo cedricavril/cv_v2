@@ -1,0 +1,296 @@
+/* reset */
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+*{
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body{
+  line-height: 1.5;
+/*  -webkit-font-smoothing: antialiased;*/
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas{
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select{
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6{
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root, #__next{
+  isolation: isolate;
+}
+
+/* \reset */
+
+
+
+/*@page{
+  size: A4 portrait;
+  margin: 0;
+}
+@media print{
+  html, body{
+    width: 210mm;
+    height: 297mm;
+  }
+  /* ... the rest of the rules ... */
+/* } */
+
+
+/*.page
+{
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform:rotate(-90deg);
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}*/
+
+a{
+  color: inherit;
+}
+
+div.page{
+  width: 210mm;
+  height: 1122px;
+}
+
+div.header{
+  float: right;
+  height: 137px;
+  width: 530px;
+  background-color: #F2F2F2;
+  padding-left: 15px;
+  padding-top: 3px;
+  line-height: initial;
+}
+
+div.header h1{
+  font-weight: 500;
+  font-size: 35px;
+  font-family: arial;
+}
+
+div.header p{
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#call-to-action-new{
+  position: absolute;
+  top: 86px;
+  left: 264px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+  background-color: #2E323899;
+  text-align: center;
+  padding: 13px;
+  z-index: 1;
+}
+
+div.left-margin{
+  position: absolute;
+  width: 264px;
+  padding: 17px;
+  padding-top: 0;
+  padding-bottom: 28px;
+  font-family: Arial;
+  font-size: 12px;
+  background-color: #4472C4;
+  color: white;
+}
+
+div.left-margin h2{
+  font-size: 22px;
+  padding-top: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+div.header .headerLogos, div.left-margin .headerLogos2{
+  image-rendering: smooth;
+
+  border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
+  -moz-border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
+  -webkit-border-radius: 150% 150% 150% 150% / 150% 150% 150% 150% ;
+
+  -webkit-box-shadow: 5px 5px 10px 4px #47B29D; 
+  box-shadow: 5px 5px 10px 4px #47B29D inset; 
+  background-color: aliceblue;
+}
+
+div.header .headerLogos{
+  float: right;
+  width: 90px;
+}
+
+div.left-margin .headerLogos2{
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 140px;
+}
+
+div.left-margin ul.skills{
+  list-style-type: none;
+  padding: 0;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+}
+
+div.left-margin ul.skills li.skill::before{
+  content: "🮱";
+  padding-right: 4px;
+}
+
+div.left-margin ul.skills li.skill a{
+  background-color: #4472C4;
+  z-index: 1;
+}
+
+html body div.page div.left-margin ul.skills li.skill strong{
+  z-index: 1;
+  position: absolute;
+  background-color: #4472C4;
+}
+
+div.left-margin ul.skills li.skill .dots{
+  display: inline;
+  position: absolute;
+}
+
+div.left-margin ul.skills li.skill .dots::after{
+  content: "............................................";
+}
+
+div.left-margin ul.skills li.skill .subskill, div.left-margin ul.skills li.skill .dots + a{
+  display: inline-block;
+  right: 26px;
+  position: absolute;
+}
+
+div.left-margin ul.skills li.skill .subskill:after{
+  content: attr(data-text);
+  background-color: #4472C4;
+  letter-spacing: initial;
+}
+
+div.left-margin h2.all-colors-gradient-vertical{
+  padding-top: 4px;
+  margin-top: 16px;
+}
+
+div.left-margin .coin-legende{
+  border: 1px solid; 
+  border-radius: 7px; 
+  background: #2E3238;
+  margin-left: 11px; 
+  padding:11px; 
+  width: 200px; 
+  margin-top: 14px;
+}
+
+div.body-content{
+  float: right;
+  margin-left: 264px;
+  width: 530px;
+  height: 980px;
+  font-size: 11px;
+  line-height: 16px;
+  background-color: #2E3238;
+  color: white;
+}
+
+div.body-content pre.codeNumbers{
+  position: absolute;
+  color: grey;
+}
+
+div.body-content pre span.jobTitle{
+  color: #8BE9FD;
+  font-style: italic; 
+  font-weight: bold;
+}
+
+div.body-content .year{
+  font-weight: lighter;
+}
+
+div.body-content pre .indent{
+  font-weight: bold; 
+  letter-spacing: 3px;
+  margin-left: 8px;
+  border-left: 1px dotted grey;
+  display: -webkit-inline-box;
+}
+
+div.body-content pre .setBookmark{
+  padding-left: 4px;
+  padding-right: 4px;
+  float: left;
+}
+
+.vocabularyLevel3{
+  font-weight: bold;
+  color: #FF24C5;
+}
+
+.vocabularyLevel2{
+  font-weight: bold;
+  color: #F1FA8C;
+}
+
+.vocabularyLevel1{
+  font-weight: bold;
+  color: #50FA7B;
+}
+
+.all-colors-gradient-vertical{
+  background-image: linear-gradient(to top, green, blueviolet, brown);
+}
+
+.all-colors-gradient-horizontal{
+  background-image: linear-gradient(to left, green, blueviolet, brown);
+}
+
+.autoentrepreneuriat, .missions, .formations{
+  font-weight: bold;
+}
+.autoentrepreneuriat{
+  background-color: green;
+}
+.missions{
+  background-color: blueviolet;
+}
+.formations{
+  background-color: brown;
+}

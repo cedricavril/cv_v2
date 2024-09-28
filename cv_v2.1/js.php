@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Curriculum vitae JS</title>
-  <?php require("include/head.html") ?>
-  <link rel="stylesheet" type="text/css" href="style_developpeur_JS.css">
-    <script src="hack_chrome_css.js"></script>
-
-    <script type="text/javascript">
-        chrome_hack_css('style_developpeur_JS_chrome.css');
-    </script>
+    <title>Curriculum vitae JS</title>
+    <link rel="stylesheet" type="text/css" href="style_gabarit.css">
 </head>
 <body>
 
