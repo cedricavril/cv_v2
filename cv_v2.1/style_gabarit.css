@@ -97,6 +97,7 @@ div.header h1{
 }
 
 div.header p{
+  display: inline;
   font-weight: bolder;
   font-style: italic;
 }
@@ -293,4 +294,7 @@ div.body-content pre .setBookmark{
 }
 .formations{
   background-color: brown;
+}
+pre{
+  font-weight: bold;
 }
