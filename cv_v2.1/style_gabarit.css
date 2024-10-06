@@ -97,6 +97,7 @@ div.header h1{
 }
 
 div.header p{
+  position: absolute;
   display: inline;
   font-weight: bolder;
   font-style: italic;

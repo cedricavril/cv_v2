@@ -3,6 +3,12 @@
 <head>
     <title>Curriculum Vitae Intégrateur HTML CSS</title>
     <link rel="stylesheet" type="text/css" href="style_gabarit.css">
+
+    <meta property="og:url"                content="https://cedricavril.naytheet.fr/cv_v2/cv_v2.1/cv-integrateur-html-css.php" />
+    <meta property="og:type"               content="Curriculum Vitae" />
+    <meta property="og:title"              content="mon CV d'intégrateur HTML CSS" />
+    <meta property="og:description"        content="CV interactif et imprimable en ligne" />
+    <meta property="og:image"              content="https://cedricavril.naytheet.fr/cv_v2/cv_v2.1/integrateur-logo.png" />
 <style>
     div.body-content{
         line-height: 20px;

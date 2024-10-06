@@ -4,6 +4,12 @@
     <title>Curriculum Vitae JS</title>
     <link rel="stylesheet" type="text/css" href="style_gabarit.css">
 
+    <meta property="og:url"                content="https://cedricavril.naytheet.fr/cv_v2/cv_v2.1/cv-dev-js.php" />
+    <meta property="og:type"               content="Curriculum Vitae" />
+    <meta property="og:title"              content="mon CV de dév JS" />
+    <meta property="og:description"        content="CV interactif et imprimable en ligne" />
+    <meta property="og:image"              content="https://cedricavril.naytheet.fr/cv_v2/cv_v2.1/JS-logo.png" />
+
 <style>
     div.body-content{
         line-height: 20px;
@@ -16,11 +22,11 @@
 
         <div class="header"><h1>Cédric AVRIL</h1><p>Développeur<br>Javascript</p>
             <div id="call-to-action-new"><img src="new.png"  style="top: -5px; left: -6px; width: 50px; position: absolute;" />&nbsp;&nbsp;&nbsp;CV INTERACTIF<br>(liens)</div>
-            <img class="headerLogos" src="logo_html5.svg"  style="margin-top: -64px;" />
-            <img class="headerLogos" src="logo_js.svg"  style="margin-right: -14px; margin-top: -16px;" />
-            <img class="headerLogos" src="logo_bs.svg"  style="margin-right: -14px;  margin-top: -64px" />
-            <img class="headerLogos" src="logo_css3.svg"  style="margin-top: -16px; margin-right: -14px;" />
-            <img class="headerLogos" src="logo_jquery.svg"  style="margin-top: -16px;" />
+            <img class="headerLogos" src="logo_html5.svg"  style="margin-top: -43px;" />
+            <img class="headerLogos" src="logo_js.svg"  style="margin-right: -14px; margin-top: 4px" />
+            <img class="headerLogos" src="logo_bs.svg"  style="margin-right: -14px;  margin-top: -43px" />
+            <img class="headerLogos" src="logo_css3.svg"  style="margin-right: -14px; margin-top: 4px" />
+            <img class="headerLogos" src="logo_jquery.svg" />
         </div>
 
 <?php include('left-margin.php') ?>

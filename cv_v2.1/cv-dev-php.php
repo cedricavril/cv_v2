@@ -3,6 +3,13 @@
 <head>
     <title>Curriculum Vitae PHP</title>
     <link rel="stylesheet" type="text/css" href="style_gabarit.css">
+
+    <meta property="og:url"                content="https://cedricavril.naytheet.fr/cv_v2/cv_v2.1/cv-dev-php.php" />
+    <meta property="og:type"               content="Curriculum Vitae" />
+    <meta property="og:title"              content="mon CV de dév PHP" />
+    <meta property="og:description"        content="CV interactif et imprimable en ligne" />
+    <meta property="og:image"              content="https://cedricavril.naytheet.fr/cv_v2/cv_v2.1/PHP-logo.png" />
+
 </head>
 <body>
     <div class="page">
@@ -12,7 +19,7 @@
             <img class="headerLogos" src="logo_jquery.svg"  style="margin-top: -44px;" />
             <img class="headerLogos" src="logo_bs.svg"  style="margin-top: 4px; margin-right: 0px;" />
             <img class="headerLogos" src="logo_mysql.svg"  style="margin-top: -44px; margin-right: 0px;" />
-            <img class="headerLogos" src="logo_php.svg" style="margin-top: -16px; margin-right: 0px;" />
+            <img class="headerLogos" src="logo_php.svg" style="margin-right: 0px;" />
         </div>
 
 <?php include('left-margin.php') ?>
