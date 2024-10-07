@@ -20,11 +20,11 @@
 
         <div class="header"><h1>Cédric AVRIL</h1><p>Intégrateur<br>HTML CSS</p>
             <div id="call-to-action-new"><img src="new.png"  style="top: -5px; left: -6px; width: 50px; position: absolute;" />&nbsp;&nbsp;&nbsp;CV INTERACTIF<br>(liens)</div>
-            <img class="headerLogos" src="logo_html5.svg"  style="margin-top: -64px;" />
-            <img class="headerLogos" src="logo_js.svg"  style="margin-right: -14px; margin-top: -16px;" />
-            <img class="headerLogos" src="logo_bs.svg"  style="margin-right: -14px;  margin-top: -64px" />
-            <img class="headerLogos" src="logo_css3.svg"  style="margin-top: -16px; margin-right: -14px;" />
-            <img class="headerLogos" src="logo_jquery.svg"  style="margin-top: -16px;" />
+            <img class="headerLogos" src="logo_html5.svg"  style="margin-top: -43px;" />
+            <img class="headerLogos" src="logo_js.svg"  style="margin-right: -14px; margin-top: 4px;" />
+            <img class="headerLogos" src="logo_bs.svg"  style="margin-right: -14px;  margin-top: -43px" />
+            <img class="headerLogos" src="logo_css3.svg"  style="margin-right: -14px;" />
+            <img class="headerLogos" src="logo_jquery.svg"  style="" />
         </div>
 
 <?php include('left-margin.php') ?>

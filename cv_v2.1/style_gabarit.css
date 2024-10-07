@@ -170,7 +170,7 @@ div.left-margin ul.skills{
 }
 
 div.left-margin ul.skills li.skill::before{
-  content: "🮱";
+  content: "⭐";
   padding-right: 4px;
 }
 
